@@ -4,6 +4,13 @@
 
 A CLI tool to export iMessages to static web archives that can be viewed locally.
 
+## Install
+
+```
+brew tap searlsco/tap
+brew install imsg
+```
+
 ## Features
 
 - **Export your Messages** to a static HTML website you can open as a file without running a server
