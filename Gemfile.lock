@@ -1,0 +1,34 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (3.0.7)
+      base64
+      nkf
+      rexml
+    base64 (0.3.0)
+    mini_portile2 (2.8.9)
+    nkf (0.2.0)
+    rexml (3.4.1)
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.7.3-aarch64-linux)
+    sqlite3 (1.7.3-arm-linux)
+    sqlite3 (1.7.3-arm64-darwin)
+    sqlite3 (1.7.3-x86-linux)
+    sqlite3 (1.7.3-x86_64-darwin)
+    sqlite3 (1.7.3-x86_64-linux)
+
+PLATFORMS
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
+  x86_64-darwin
+  x86_64-linux
+
+DEPENDENCIES
+  CFPropertyList
+  sqlite3
+
+BUNDLED WITH
+   2.6.6
