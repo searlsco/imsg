@@ -1,8 +1,10 @@
-# iMessage Export Tool
+# imsg - archive your iMessages
 
-🚨🧘**VIBE CODING ALERT: no humans were harmed in the writing of this code.**🧘🚨
+🚨🧘 **VIBE CODING ALERT: no humans were harmed in the writing of this code.** 🧘🚨
 
 A CLI tool to export iMessages to static web archives that can be viewed locally.
+
+<img width="1147" height="716" alt="Image" src="https://github.com/user-attachments/assets/f3001ff9-4368-4196-9492-6b7ed0f368b5" />
 
 ## Install
 
