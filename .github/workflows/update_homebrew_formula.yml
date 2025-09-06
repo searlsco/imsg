@@ -49,8 +49,8 @@ jobs:
           TAR_URL="${{ steps.meta.outputs.tar_url }}"
           SHA256="${{ steps.sha.outputs.sha256 }}"
           perl -0777 -pe '
-            s{^(\s*url\s*")([^"]+)(")}{$1 . $ENV{TAR_URL} . $3}m;
-            s{^(\s*sha256\s*")([^"]+)(")}{$1 . $ENV{SHA256} . $3}m;
+            s{^(\s*url\s*")[^"]+(")}{$1 . $ENV{TAR_URL} . $2}me;
+            s{^(\s*sha256\s*")[^"]+(")}{$1 . $ENV{SHA256} . $2}me;
           ' -i "${FORMULA_PATH}"
           git diff -- "${FORMULA_PATH}" || true
 
