@@ -1,6 +1,6 @@
 # imsg - archive your iMessages
 
-🚨🧘 **VIBE CODING ALERT: no humans were harmed in the writing of this code.** 🧘🚨
+[![Certified Shovelware](https://justin.searls.co/img/shovelware.svg)](https://justin.searls.co/shovelware/)
 
 A CLI tool to export iMessages to static web archives that can be viewed locally.
 
