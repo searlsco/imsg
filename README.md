@@ -9,8 +9,7 @@ A CLI tool to export iMessages to static web archives that can be viewed locally
 ## Install
 
 ```
-brew tap searlsco/tap
-brew install imsg
+brew install searlsco/tap/imsg
 ```
 
 ## Features
